@@ -6,13 +6,13 @@ import (
 	dt "github.com/dyladan/dynatrace-go-client/api"
 )
 
-// Config contains New Relic provider settings
+// Config contains Dynatrace provider settings
 type Config struct {
 	APIKey string
 	APIURL string
 }
 
-// Client returns a new client for accessing New Relic
+// Client returns a new client for accessing Dynatrace
 func (c *Config) Client() (*dt.Client, error) {
 	dtConfig := dt.Config{
 		APIKey:  c.APIKey,
