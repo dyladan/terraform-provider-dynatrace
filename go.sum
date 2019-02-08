@@ -24,6 +24,10 @@ github.com/dollarshaveclub/new-relic-synthetics-go v0.0.0-20170605224734-4dc3dd6
 github.com/dollarshaveclub/new-relic-synthetics-go v0.0.0-20170605224734-4dc3dd6ae884/go.mod h1:SB2lZXXkyipTEoPLxR3A5YglkZ7QwoXSsyI9h6yUeFc=
 github.com/dyladan/dynatrace-go-client v0.0.0-20190208201320-09711e29c076 h1:WY1aNKuz48ppTwI/qCTzGvL3PH8lymFblHyJ8pDYDaw=
 github.com/dyladan/dynatrace-go-client v0.0.0-20190208201320-09711e29c076/go.mod h1:xkUa6DqjL7xVBpJf6dR9QJPlXTnUaW7h9ga4x1NhxiI=
+github.com/dyladan/dynatrace-go-client v0.0.0-20190208233722-7fbe9a273dbc h1:milyG6ovJ0rWtr2NalkKr9pDWYX5zACalOW+/10G50I=
+github.com/dyladan/dynatrace-go-client v0.0.0-20190208233722-7fbe9a273dbc/go.mod h1:xkUa6DqjL7xVBpJf6dR9QJPlXTnUaW7h9ga4x1NhxiI=
+github.com/dyladan/dynatrace-go-client v0.0.0-20190208234359-20d3a94e779e h1:JIvBPKqrjSV0Sv+Dtp+b1rb7HmK28C8ubmnK77vXxI0=
+github.com/dyladan/dynatrace-go-client v0.0.0-20190208234359-20d3a94e779e/go.mod h1:xkUa6DqjL7xVBpJf6dR9QJPlXTnUaW7h9ga4x1NhxiI=
 github.com/fatih/color v1.7.0 h1:DkWD4oS2D8LGGgTQ6IvwJJXSL5Vp2ffcQg58nFV38Ys=
 github.com/fatih/color v1.7.0/go.mod h1:Zm6kSWBoL9eyXnKyktHP6abPY2pDugNf5KwzbycvMj4=
 github.com/fsnotify/fsnotify v1.4.7/go.mod h1:jwhsz4b93w/PPRr/qN1Yymfu8t87LnFCMoQvtojpjFo=
