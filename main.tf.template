@@ -1,0 +1,11 @@
+provider "dynatrace" {
+  api_key = ""
+  api_url = ""
+}
+
+resource "dynatrace_application_detection_rule" "Example" {
+  application_identifier = "APPLICATION-00000"
+  filter_pattern = "example.com"
+  filter_application_match_type = "CONTAINS"
+  filter_application_match_target = "DOMAIN"
+}
