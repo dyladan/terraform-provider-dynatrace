@@ -1,4 +1,4 @@
-module github.com/dyladan/terraform-providers-dynatrace
+module github.com/dyladan/terraform-provider-dynatrace
 
 require (
 	github.com/apparentlymart/go-cidr v1.0.0 // indirect

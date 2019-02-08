@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/dyladan/terraform-providers-dynatrace/dynatrace"
+	"github.com/dyladan/terraform-provider-dynatrace/dynatrace"
 	"github.com/hashicorp/terraform/plugin"
 	"github.com/hashicorp/terraform/terraform"
 )
