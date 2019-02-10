@@ -28,6 +28,12 @@ github.com/dyladan/dynatrace-go-client v0.0.0-20190208233722-7fbe9a273dbc h1:mil
 github.com/dyladan/dynatrace-go-client v0.0.0-20190208233722-7fbe9a273dbc/go.mod h1:xkUa6DqjL7xVBpJf6dR9QJPlXTnUaW7h9ga4x1NhxiI=
 github.com/dyladan/dynatrace-go-client v0.0.0-20190208234359-20d3a94e779e h1:JIvBPKqrjSV0Sv+Dtp+b1rb7HmK28C8ubmnK77vXxI0=
 github.com/dyladan/dynatrace-go-client v0.0.0-20190208234359-20d3a94e779e/go.mod h1:xkUa6DqjL7xVBpJf6dR9QJPlXTnUaW7h9ga4x1NhxiI=
+github.com/dyladan/dynatrace-go-client v0.0.0-20190209002537-f3cd9bd6385d h1:I0HM2vTxrfLM8gTIiAMXBGbSYhKBTHO9c3i7+2kj47g=
+github.com/dyladan/dynatrace-go-client v0.0.0-20190209002537-f3cd9bd6385d/go.mod h1:xkUa6DqjL7xVBpJf6dR9QJPlXTnUaW7h9ga4x1NhxiI=
+github.com/dyladan/dynatrace-go-client v0.0.0-20190209224630-4d3283647f89 h1:vDPVpvsnEusD2xpH1Ii0b2FFp8XAudyMs275vHBRbJo=
+github.com/dyladan/dynatrace-go-client v0.0.0-20190209224630-4d3283647f89/go.mod h1:xkUa6DqjL7xVBpJf6dR9QJPlXTnUaW7h9ga4x1NhxiI=
+github.com/dyladan/dynatrace-go-client v0.0.0-20190210184955-190628acc1e9 h1:meVKeZm8Dn1nPIJZmUAQ59zeDPgezA0j6Mq14d9ui40=
+github.com/dyladan/dynatrace-go-client v0.0.0-20190210184955-190628acc1e9/go.mod h1:xkUa6DqjL7xVBpJf6dR9QJPlXTnUaW7h9ga4x1NhxiI=
 github.com/fatih/color v1.7.0 h1:DkWD4oS2D8LGGgTQ6IvwJJXSL5Vp2ffcQg58nFV38Ys=
 github.com/fatih/color v1.7.0/go.mod h1:Zm6kSWBoL9eyXnKyktHP6abPY2pDugNf5KwzbycvMj4=
 github.com/fsnotify/fsnotify v1.4.7/go.mod h1:jwhsz4b93w/PPRr/qN1Yymfu8t87LnFCMoQvtojpjFo=
