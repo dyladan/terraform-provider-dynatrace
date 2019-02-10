@@ -9,3 +9,14 @@ resource "dynatrace_application_detection_rule" "Example" {
   filter_application_match_type = "CONTAINS"
   filter_application_match_target = "DOMAIN"
 }
+
+resource "dynatrace_application_detection_rule" "Example2" {
+  application_identifier = "APPLICATION-11111"
+  filter_pattern = "example2.com"
+  filter_application_match_type = "CONTAINS"
+  filter_application_match_target = "DOMAIN"
+}
+
+resource "dynatrace_application_detection_rule_order" "Ordering" {
+  rules = ["${dynatrace_application_detection_rule.Example.id}", "${dynatrace_application_detection_rule.Example2.id}"]
+}
