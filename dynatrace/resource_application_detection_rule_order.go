@@ -48,7 +48,7 @@ func resourceApplicationDetectionRuleOrderRead(d *schema.ResourceData, meta inte
 	client := meta.(*ProviderConfig).Client
 
 	expectedOrder := d.Get("rules").([]interface{})
-	actualOrder := make([]string, len(expectedOrder))
+	var actualOrder []string
 
 	rules, err := client.AllApplicationNameDetectionRules()
 
@@ -56,10 +56,10 @@ func resourceApplicationDetectionRuleOrderRead(d *schema.ResourceData, meta inte
 		return err
 	}
 
-	for i, rule := range rules {
+	for _, rule := range rules {
 		for _, expectedRuleId := range expectedOrder {
 			if rule.Id == expectedRuleId {
-				actualOrder[i] = rule.Id
+				actualOrder = append(actualOrder, rule.Id)
 				break
 			}
 		}
