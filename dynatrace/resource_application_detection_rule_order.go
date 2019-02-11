@@ -41,8 +41,7 @@ func resourceApplicationDetectionRuleOrderCreate(d *schema.ResourceData, meta in
 
 	d.SetId(fmt.Sprintf("%v", expectedOrder))
 
-	return resourceApplicationDetectionRuleRead(d, meta)
-	// return nil
+	return resourceApplicationDetectionRuleOrderRead(d, meta)
 }
 
 func resourceApplicationDetectionRuleOrderRead(d *schema.ResourceData, meta interface{}) error {
@@ -66,11 +65,7 @@ func resourceApplicationDetectionRuleOrderRead(d *schema.ResourceData, meta inte
 		}
 	}
 
-	for i, id := range expectedOrder {
-		if actualOrder[i] != id {
-			d.SetId("")
-		}
-	}
+	d.Set("rules", actualOrder)
 
 	return nil
 }
