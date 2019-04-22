@@ -26,6 +26,7 @@ func Provider() *schema.Provider {
 		ResourcesMap: map[string]*schema.Resource{
 			"dynatrace_application_detection_rule":       resourceApplicationDetectionRule(),
 			"dynatrace_application_detection_rule_order": resourceApplicationDetectionRuleOrder(),
+			"dynatrace_aws_credentials_configutation":    resourceAwsCredentialsConfigutation(),
 		},
 
 		ConfigureFunc: providerConfigure,
