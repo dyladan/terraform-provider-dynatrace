@@ -1,10 +1,8 @@
 package dynatrace
 
 import (
-//	"log"
 	"github.com/hashicorp/terraform/helper/schema"
 	"github.com/hashicorp/terraform/helper/validation"
-//	dt "github.com/alex.shults/dynatrace-go-client/api"
 )
 
 func resourceAwsCredentialsConfigutation() *schema.Resource {
@@ -51,7 +49,7 @@ func resourceAwsCredentialsConfigutation() *schema.Resource {
 								},
 							},
 						},
-						"role_base_authentication": {
+						"role_based_authentication": {
 							Type: schema.TypeList,
 							Optional:     true,
 							Elem: &schema.Resource{
@@ -116,7 +114,7 @@ func resourceAwsCredentialsConfigutation() *schema.Resource {
 }
 
 func resourceAwsCredentialsConfigutationCreate(d *schema.ResourceData, meta interface{}) error {
-	return nil
+	return resourceAwsCredentialsConfigutationRead(d, meta)
 }
 
 func resourceAwsCredentialsConfigutationRead(d *schema.ResourceData, meta interface{}) error {
@@ -124,7 +122,7 @@ func resourceAwsCredentialsConfigutationRead(d *schema.ResourceData, meta interf
 }
 
 func resourceAwsCredentialsConfigutationUpdate(d *schema.ResourceData, meta interface{}) error {
-	return nil
+	return resourceAwsCredentialsConfigutationRead(d, meta)
 }
 
 func resourceAwsCredentialsConfigutationtDelete(d *schema.ResourceData, meta interface{}) error {
