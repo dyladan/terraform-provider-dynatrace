@@ -16,3 +16,4 @@ crash.log
 
 # Built binary
 terraform-provider-dynatrace
+/.project
